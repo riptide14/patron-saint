@@ -5,5 +5,9 @@
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
     <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="AIDL" injector-id="xml">
+      <display-name>manifest/@package</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("package")).withParent(xmlTag().withLocalName(string().equalTo("manifest")))]]></place>
+    </injection>
   </component>
 </application>
