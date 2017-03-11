@@ -1,5 +1,7 @@
 <application>
   <component name="ExternalResourceManagerImpl">
+    <resource url="http://schemas.android.com/apk/res-auto" location="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd" />
+    <resource url="http://schemas.android.com/tools" location="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema-1_1/XMLSchema.xsd" />
     <ignored-resource url="http://schemas.android.com/apk/res/android" />
   </component>
 </application>
